@@ -4,8 +4,11 @@ Allows you to launch a program and ensure it stays running. This could be to res
 Use Keep Running x64 as a custom shell so an application such as Internet Explorer is the only available program and automatically re-launch it when closed. Or repurpose old workstations as thin-clients, having them automatically connect your terminal server.
 
 Tested on Windows 7, 8, 8.1 and Server 2008, 2012
+
 A scripted install/uninstall is not included with this software.
+
 This program runs in the background; without any GUI, taskbar, or system tray icon.
+
 Since this program is 64-bit it can detect other 64-bit or 32-bit applications.
 
 For a 32-bit only version see Keep Running
