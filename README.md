@@ -20,8 +20,6 @@ For a 32-bit only version see Keep Running
 3) Modify keeprun64.ini as indicated below
 4) Run keeprun64.exe
 
-View the default .ini file that's included.
-
 <b>.ini Settings:</b>
 
 keeprun64.exe does not have to directly launch the executable you are detecting, you may specify a batch file or another program which runs the executable being detected.
