@@ -43,7 +43,7 @@ Minimally required .ini settings to launch Terminal Server client on 64-bit Wind
 
 <b>Usage:</b>
 
-Optionally, use Autologon to set the workstation to logon automatically.
+Optionally, use Autologon: http://technet.microsoft.com/en-us/sysinternals/bb963905.aspx to set the workstation to logon automatically.
 
 Set keeprun64.exe to start automatically by adding a shortcut in the Startup folder, the registry, or via a Scheduled Task.
 
