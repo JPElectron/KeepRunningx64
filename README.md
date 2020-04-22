@@ -33,7 +33,7 @@ Minimally required .ini settings to launch IE on 64-bit Windows
       to launch IE in kiosk mode add...
     Arguments=-k
       or to launch IE in kiosk mode with a URL add...
-    Arguments=-k http://www.jpelectron.com/krun/setup.htm
+    Arguments=-k http://www.example.com
 
 Minimally required .ini settings to launch Terminal Server client on 64-bit Windows
 
