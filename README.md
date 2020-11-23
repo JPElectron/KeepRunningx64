@@ -1,4 +1,5 @@
 # KeepRunningx64
+
 Allows you to launch a program and ensure it stays running. This could be to restart a crashed application or prevent something from being closed accidentally. Useful in a kiosk, library, school, website demo, or web-based application such as a self-registration/signup type of environment.
 
 Use Keep Running x64 as a custom shell so an application such as Internet Explorer is the only available program and automatically re-launch it when closed. Or repurpose old workstations as thin-clients, having them automatically connect your terminal server.
@@ -13,14 +14,14 @@ Since this program is 64-bit it can detect other 64-bit or 32-bit applications.
 
 For a 32-bit only version see Keep Running
 
-<b>Installation:</b>
+## Installation
 
 1) Ensure the Microsoft .NET Framework 4.x is installed
 2) Extract the contents of the .zip file
 3) Modify keeprun64.ini as indicated below
 4) Run keeprun64.exe
 
-<b>.ini Settings:</b>
+## .ini Settings
 
 keeprun64.exe does not have to directly launch the executable you are detecting, you may specify a batch file or another program which runs the executable being detected.
 
@@ -42,7 +43,7 @@ Minimally required .ini settings to launch Terminal Server client on 64-bit Wind
       to automatically connect in full-screen mode add...
     Arguments=/v:[your_terminal_server_ip] /f
 
-<b>Usage:</b>
+## Usage
 
 Optionally, use Autologon: http://technet.microsoft.com/en-us/sysinternals/bb963905.aspx to set the workstation to logon automatically.
 
@@ -75,3 +76,13 @@ To restart a service define Detect= as the name of the service executable but de
 To detect more than one executable on the same system copy keeprun64.exe and keeprun64.ini into another folder, then use this second instance to detect and launch something else. When running multiple keeprun64.exe's sometimes it's best to rename each keeprun64.exe differently, like keeprun64-for-ie.exe and keeprun64-for-other.exe so you can identify each under task manager, the config file should always be named keeprun64.ini
 
 If you set Reboot=Yes then also add Launch=placeholder to suppress the error prompt.
+
+## License
+
+GPL does not allow you to link GPL-licensed components with other proprietary software (unless you publish as GPL too).
+
+GPL does not allow you to modify the GPL code and make the changes proprietary, so you cannot use GPL code in your non-GPL projects.
+
+If you wish to integrate this software into your commercial software package, or you are a corporate entity with more than 10 employees, then you should obtain a per-instance license, or a site-wide license, from http://jpelectron.com/buy
+
+[End of Line]
