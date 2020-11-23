@@ -69,7 +69,7 @@ Or to have just one program run immediately after login (without explorer, any d
    Some systems will require that keeprun64.ini be located in C:\windows\system32
    In all other cases keeprun64.ini should be located in the same folder as keeprun64.exe
 
-To log the restarts of a failed application define Launch= as the full path to log-launch.bat: http://jpelectron.com/sample/JPElectron/KeepRun,%20log%20launch.bat and edit this batch file to contain the path to your application.
+To log the restarts of a failed application define Launch= as the full path to log-launch.bat from: https://drive.google.com/drive/folders/1PvlbSrecTMYvc46rFC8409JZf8u_oMKu?usp=sharing File: "KeepRun, log launch.bat" and edit this batch file to contain the path to your application.
 
 To restart a service define Detect= as the name of the service executable but define Launch= as the full path to service-restart.bat and edit this batch file to contain the Windows service name.
 
